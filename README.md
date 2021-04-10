@@ -1,2 +1,2 @@
-# stepik---autotest-course
+# stepik-selenium-course
 Auto testing samples with Selenium
