@@ -2,8 +2,8 @@ from selenium import webdriver
 from time import sleep
 from math import log, e, sin
 
-USERNAME = 'megabitik@gmail.com'
-PASSWORD = '7COOp1IWrH9S&g@7W*o47b4jHxUni6'
+USERNAME = ''  # Your Stepik username
+PASSWORD = ''  # Your Stepik password
 
 try:
     link = 'http://suninjuly.github.io/redirect_accept.html'
