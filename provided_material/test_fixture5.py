@@ -12,6 +12,11 @@ def browser():
     print("\nquit browser..")
     browser.quit()
 
+@pytest.fixture(autouse=True)  # Will be executed before any test without direct call
+def prepare_data():
+    print()
+    print("preparing some critical data for every test")
+
 
 class TestMainPage1():
 
